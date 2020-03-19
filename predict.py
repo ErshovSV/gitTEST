@@ -67,6 +67,8 @@ cv2.putText(output, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7,
 cv2.imshow("Image", output)
 cv2.waitKey(0)
 
+# qwerty
+
 print()
 
 print("bla-bla")
