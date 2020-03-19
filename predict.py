@@ -2,7 +2,7 @@
 # python predict.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
 # python predict.py --image images/panda.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
 
-# импортируем необходимые пакеты
+#импортируем необходимые пакеты
 from keras.models import load_model
 import argparse
 import pickle
@@ -66,3 +66,7 @@ cv2.putText(output, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7,
 # показываем выходное изображение
 cv2.imshow("Image", output)
 cv2.waitKey(0)
+
+print()
+
+print("Hello")
