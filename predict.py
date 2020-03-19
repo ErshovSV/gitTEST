@@ -69,4 +69,4 @@ cv2.waitKey(0)
 
 print()
 
-print("Hello")
+print("bla-bla")
